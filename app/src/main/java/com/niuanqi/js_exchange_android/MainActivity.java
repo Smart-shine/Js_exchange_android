@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         
         niuanqi;
+        differ1;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         webView2 = (WebView) findViewById(R.id.webview2);
