@@ -20,6 +20,7 @@ public class WebViewActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        differ2;
         setContentView(R.layout.activity_web_view);
         webView = (WebView) findViewById(R.id.webview);
         webView.loadUrl("file:///android_asset/Js_webview.html");
